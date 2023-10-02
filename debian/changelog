@@ -1,3 +1,18 @@
+golem-nvidia-kernel (5.10.197-1) jammy; urgency=medium
+
+  [ Frédéric Pierret (fepitre) ]
+  * Improve build workflow
+  * Define X-Nvidia-Built-Using
+  * Fix substvar for nvidia
+  * Trigger build workflow on PR
+  * Fix duplicated entries in release.yml
+  * version 5.10.197-1
+
+  [ Marek Marczykowski-Górecki ]
+  * Include nvidia*.ko dependencies in initramfs.cpio.gz too
+
+ -- Frédéric Pierret <frederic@invisiblethingslab.com>  Mon, 02 Oct 2023 11:39:05 +0200
+
 golem-nvidia-kernel (5.10.188-3) jammy; urgency=medium
 
   * Create modules.cpio.gz
