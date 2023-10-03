@@ -1,3 +1,10 @@
+golem-nvidia-kernel (5.10.197-2) jammy; urgency=medium
+
+  [ Frédéric Pierret (fepitre) ]
+  * Recreate initramfs and add files squashfs
+
+ -- Frédéric Pierret <frederic@invisiblethingslab.com>  Tue, 03 Oct 2023 16:31:59 +0200
+
 golem-nvidia-kernel (5.10.197-1) jammy; urgency=medium
 
   [ Frédéric Pierret (fepitre) ]
